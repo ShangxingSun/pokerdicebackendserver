@@ -1,0 +1,7 @@
+{
+	"bpurl": "https://api.kylin.alohaeos.com",
+	"tokenLimits": [
+		{"token" : "EOS", "min" : 0.1,"max" : 200}
+	],
+	"pub_key": "testpubkey"
+}
