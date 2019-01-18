@@ -1,3 +1,10 @@
+const Long = require('long')
+const charmap = '.12345abcdefghijklmnopqrstuvwxyz';
+charidx = (ch)=> {
+	  var idx = charmap.indexOf(ch);
+	  if (idx === -1) throw new TypeError('Invalid character: \'' + ch + '\'');
+	  return idx;
+};
 exports.CommonDefine = {
 	encodeName : function(name){
 		var littleEndian = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
